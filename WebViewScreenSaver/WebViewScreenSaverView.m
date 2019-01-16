@@ -239,16 +239,8 @@ static NSTimeInterval const kOneMinute = 60.0;
   return self;
 }
 
-- (void)keyDown:(NSEvent *)theEvent {
-  return;
-}
-
-- (void)keyUp:(NSEvent *)theEvent {
-  return;
-}
-
 - (BOOL)acceptsFirstResponder {
-  return YES;
+  return NO;
 }
 
 - (BOOL)resignFirstResponder {
